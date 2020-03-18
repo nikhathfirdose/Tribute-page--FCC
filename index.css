@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  background-color: #d3d3d3;
+}
+.header {
+  padding: 10px;
+}
+#title {
+  font-size: 37px;
+}
+#img-div {
+  border: 2px solid white;
+  padding: 30px 4px 10px 4px;
+  background-color: white;
+}
+#image {
+  max-width: 1024px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+p {
+  font-size: 18px;
+}
+
+#tribute-info {
+  display: grid;
+  grid-template-columns: repeat(16, 500px);
+  text-align: left;
+  margin: 32px;
+  margin-left: 500px;
+  grid-template-areas:
+    "content"
+    "quote";
+}
+#tribute-info p {
+  grid-area: quote;
+}
+ul {
+  margin: 0;
+}
+li {
+  line-height: 27px;
+}
+h2 {
+  margin: 45px;
+}
